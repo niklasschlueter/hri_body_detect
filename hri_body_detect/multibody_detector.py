@@ -48,7 +48,9 @@ from hri_msgs.msg import Skeleton2D, NormalizedPointOfInterest2D, \
     NormalizedRegionOfInterest2D, IdsList, Gesture
 from geometry_msgs.msg import TwistStamped, PointStamped, TransformStamped
 
-from google.protobuf.pyext._message import RepeatedCompositeContainer
+#from google.protobuf.pyext._message import RepeatedCompositeContainer
+from google._upb._message import RepeatedCompositeContainer
+
 
 from cv_bridge import CvBridge
 import cv2
